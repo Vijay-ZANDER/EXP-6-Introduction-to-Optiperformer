@@ -1,5 +1,5 @@
 
-Exp 6 Simulation of Optical Communication System
+# Exp 6 Simulation of Optical Communication System
 ## Introduction to OptiPerformer 
 ## Aim
 To analyze and evaluate the performance of an optical communication system by studying the relationship between fiber length, received power, Q factor and Bit Error Rate(BER) and to observe changes in the eye diagram with increasing fiber length using optiperformer.
@@ -61,27 +61,32 @@ The system includes:
 4. Description of eye diagram changes with increasing fiber length.
 
 ---
+## Block Diagram
+<img width="736" height="388" alt="image" src="https://github.com/user-attachments/assets/7f0776fd-e602-470b-b936-e735e3235040" />
+
 
 ## Tabulation
 
 **Transmission Analysis Across Fiber Lengths**
 
+## Transmission Analysis Across Fiber Lengths
+
 | S.No | Fiber Length (km) | Optical Power (Watts) | Optical Power (dBm) | Max Q Factor | Min BER | Eye Height | Decision Instant (Max Q / Min BER) |
-|------|-------------------|------------------------|----------------------|--------------|---------|-------------|-------------------------------------|
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
+|-----|------------------|----------------------|--------------------|-------------|---------|------------|------------------------------------|
+| 1 | 60  | 30.563 | 15.148 | 85.0711 | 0 | 6.09879e-05 | 0.546875 |
+| 2 | 70  | 18.914 | 17.219 | 66.7481 | 0 | 3.8153e-05 | 0.546875 |
+| 3 | 80  | 11.776 | 17.289 | 61.3449 | 0 | 2.39016e-05 | 0.546875 |
+| 4 | 90  | 7.801  | 21.079 | 44.5452 | 0 | 1.48427e-05 | 0.546875 |
+| 5 | 100 | 4.422  | 23.679 | 45.2504 | 0 | 9.42485e-06 | 0.546875 |
 
----
+![WhatsApp Image 2026-01-24 at 1 29 05 PM](EXP6.jpeg)
 
-## Graphs
+# Graph
 
-*(Insert plots of Optical Power, Q Factor, and BER vs. Fiber Length here)*
+<img width="879" height="323" alt="image" src="https://github.com/user-attachments/assets/ec9ffcf3-76ad-4546-9c5e-d81e140c7fb0" />
 
 ---
 
 ## RESULT
 
-*(Summarize key findings from simulation and analysis)*
+Thus the optiperformer has been installed successfully and sample file has been run
